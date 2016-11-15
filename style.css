@@ -1,0 +1,27 @@
+.rect {
+	position: relative;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin: 30px;
+  background-color: deepskyblue;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+}
+
+ .rect:after {
+  content: ' ';
+  position: absolute;
+  
+  width: 0;
+  height: 0;
+  left: -25px;
+  top: 30px;
+  border: 15px solid;
+  border-color:  transparent deepskyblue  deepskyblue transparent;
+}
